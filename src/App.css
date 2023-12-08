@@ -1,0 +1,39 @@
+
+
+
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: 'Poppins', sans-serif;
+
+ } 
+
+.mobiledevice-logo{
+  display:none !important;
+}
+
+.navigationbar.scrolled {
+  /* position: sticky; */
+  background-color: white;
+  color: black !important;
+  transition: background-color 0.3s, color 0.3s;
+  /* width: 100%; */
+}
+
+.navigationbar{
+  background-color: white;
+  /* width: 100%; */
+}
+.hoverhome:hover{
+ color: #0056b3 !important; 
+}
+
+.white{
+  background-color: aliceblue !important;
+}
+
+
+
+
+/* Rest of your styles */

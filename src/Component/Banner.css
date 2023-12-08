@@ -1,0 +1,255 @@
+@import "~font-awesome/css/font-awesome.css";
+/* src/index.css or src/App.css */
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden ;
+    /* overflow-y: hidden; */
+    
+}
+.backgroundimage {
+    background: linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url('../Image/banner.jpg');  background: linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url('../Image/banner.jpg');
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+}
+
+p.textjustify {
+    text-align: justify;
+}
+
+h5.card-title.fw-bold {
+    font-size: 15px;
+    padding-top: 2%;
+}
+.container.mt-5.shadow.p-3.mb-5.bg-light.text-dark.rounded {
+    margin-top: -10% !important;
+    width: 69%;
+    background-color: #ffffff82 !important;
+}
+.Tirumala{
+    color: yellow;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.bannercenter {
+    /* background-color:#53535378; */
+    padding: 20px; /* Adjust padding as needed for spacing */
+}
+
+.acceptterms{
+    color: black;
+}
+
+
+
+.contentcenter{
+    margin-top: 12%;
+}
+
+.call-button {
+    background-color: #2f55d4; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition for the hover effect */
+    margin-right: 10px; /* Add some spacing between buttons */
+  
+    /* Hover effect */
+    &:hover {
+      background-color: #0056b3; /* Adjust the color on hover */
+    }
+  }
+
+
+  h5.card-title.text-center {
+    font-size: 17px !important;
+}
+  /* Cartlogo  */
+
+.search {
+    font-size: 4rem;
+    color:grey;;
+}
+
+
+.my-card:hover {
+    background-color: #2f55d4 !important; /* Change to the desired hover background color */
+    color: white !important; 
+    cursor: pointer;/* Change to the desired hover text color */
+  }
+
+.my-card{
+    border: none;
+}
+.search, .my-card {
+    transition: all 0.3s ease; 
+    padding: 10px;
+}
+
+
+
+/* .table-bordered>tbody>tr>th,
+.table-bordered>tbody>tr>td {
+  transition: all 0.3s ease; 
+
+}
+
+.table-bordered>tbody>tr:hover>th,
+.table-bordered>tbody>tr:hover>td {
+    background-color:#f8f9fa;
+    cursor: pointer;
+
+} */
+
+
+.custom-hover:hover {
+    background-color: #ffffff82 !important;
+  }
+  
+.line{
+    border-bottom: 2px solid #2f55d4;
+    width: 20%;
+  
+}
+
+.offer{
+    color: #2f55d4;
+    font-weight: bold;
+}
+
+
+
+.highlightcontent {
+    /* background-color: #ffeb3b; Yellow background for highlighted content */
+    padding: 2px;
+    text-align: justify;
+    line-height: 1.9;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+.packagebutton{
+    text-align: center !important;
+}
+
+
+.titlecar{
+    font-weight: 900;
+    font-size: 17x;
+}
+
+.carshadow:hover{
+    background-color: black !important;
+    color:white;
+}
+
+.checked{
+    color: orange;
+}
+.star-rating {
+    display: flex;
+  }
+  
+  .fa {
+    font-size: 24px; /* Adjust the size of the stars as needed */
+    margin-right: 5px; /* Adjust the spacing between stars as needed */
+  }
+
+
+  .rating-color{
+    color:#fbc634 !important;
+}
+
+.names{
+    color: #2f55d4;
+    font-weight: 700;
+}
+
+.namestart{
+    text-align: center;
+}
+
+.city{
+    color: #fbc634;
+    font-weight: 900;
+}
+
+
+
+  
+  .card:hover {
+    background-color: #f0f0f0 !important;
+        color: #333 !important;
+  }
+
+  p.text-muted.fw-bold {
+    font-size: 14px;
+}
+
+
+.bgbackground{
+    background-color:#f8f9fa !important;
+    width: 100%;
+  height: 100vh;
+  
+
+}
+
+.bgbackgrounds{
+    background-color:#f8f9fa !important;
+    width: 100%;
+  height: 100%;
+  
+
+}
+
+
+.footer{
+    background-color: #202942;
+    width: 100%;
+    height: 100%;
+
+}
+
+.reachicon{
+    width: 10%;
+}
+
+.circle{
+    list-style: circle;
+    color: white;
+}
+.calls{
+    width: 12%;
+    padding: 2px;
+}
+/* 
+.list-group-item:hover {
+    color: yellow !important;
+  } */
+
+  .footercenter {
+    margin-top: 20%;
+}
+
+h5.display-6.text-uppercase.text-center {
+    font-size: 30px;
+}
+
+.footertitle{
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+
+.largedevice{
+    display: none !important;
+}

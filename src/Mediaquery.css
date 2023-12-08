@@ -1,0 +1,183 @@
+@media (max-width: 575px) { 
+body{
+
+    overflow-x: hidden;
+
+
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+  
+   } 
+button.navbar-toggler.d-lg-none {
+    margin-left: -47px !important;
+    margin-top: 10% !important;
+}
+.bannercenter {
+    display: none;
+}
+
+.container.mt-5.shadow.p-3.mb-5.bg-light.text-dark.rounded {
+    margin-top: 35% !important;
+    width: 100% !important;
+}
+.mediumsmalldevice{
+    display: none !important;
+}
+
+ul.slick-dots {
+    display: none !important;
+}
+h5.names.text-center {
+    font-size: 18px !important;
+}
+.hover {
+    padding: 10px;
+}
+
+h5.display-6.text-uppercase.text-center {
+    font-size: 16px !important;
+}
+
+p.h2.fw-bold {
+    font-size: 19px !important;
+}
+.bgbackgrounds {
+    margin-top: 0rem !important;
+}
+
+.displaynone{
+    display: none !important;
+}
+
+.backgroundimage {
+    height: 90%;
+    width: 100%;
+}
+
+h3.text-center.my-4.package-title {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+button.text-center.btn.btn-primary {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+
+.bgbackground {
+    background-color: #f8f9fa !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+.navigationbar.scrolled{
+    display: none;
+}
+
+
+.h3.text-upper.text-center.fw-bold {
+    font-size: 18px !important;
+}
+
+h5.card-title.fw-bold {
+    font-size: 14px !important;
+}
+p.text-center.content {
+    font-size: 14px !important;
+}
+
+
+.mobilecentermode{
+    display: none !important;
+}
+.largedevice{
+    display: block !important;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    body{
+        overflow-x: hidden;
+        
+    }
+    .bannercenter {
+        margin-top: 12% !important;
+    }
+    .backgroundimage {
+        height: 125vh !important;
+    }
+
+
+    .container.mt-5.shadow.p-3.mb-5.bg-light.text-dark.rounded {
+        width: 92% !important;
+        font-size: 16px !important;
+        margin-top: 0% !important;
+    }
+
+    h3.text-left.text-white {
+        font-size: 18px !important;
+    }
+
+    
+    h5.text-left.text-white {
+        font-size: 18px !important;
+    }
+
+   
+    button.call-button {
+        font-size: 16px !important;
+    }
+
+    .mediumdevice {
+        margin-top: -18% !important;
+    }
+    .star-rating {
+        margin-left: -47px !important;
+    }
+    .card.shadow-sm.p-3.mb-5.bg-body.rounded.border-0.carshadow {
+        width: 10rem !important;
+    } 
+
+
+
+    .bgbackgrounds {
+        margin-top: 0% !important;
+    }
+
+.bgbackground {
+    height: 240vh !important;
+}
+
+/* .bgbackground {
+    height: 110vh !important;
+} */
+
+.footer{
+    font-size: 14px !important;
+}
+ul.list-group {
+    font-size: 14px !important;
+}
+
+.mediumdevicefontsize{
+    font-size: 15px !important;
+}
+
+}
+
+
+
+/* @media (min-width: 991px) and (max-width: 1023px) {
+    .largedevice {
+        margin-top: -60% !important;
+    }
+    
+   
+  }
+   */
